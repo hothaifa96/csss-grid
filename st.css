@@ -1,0 +1,19 @@
+.container {
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: repeat(2,100PX);
+    grid-template: repeat(3,100) / repeat(2,100);
+    /* grid-template: repeat(3,100) / 30% 70%  fr;*/
+    border: 3px solid lightgray;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+    /*strech*/
+}
+.box {
+width: 5rem;
+height: 5rem;
+background-color: gold;
+}
